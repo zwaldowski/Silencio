@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB228DA61A6093BF0062084A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB228DA51A6093BF0062084A /* AppKit.framework */; };
+		DB228DA81A6093BF0062084A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB228DA71A6093BF0062084A /* Foundation.framework */; };
+		DB228DAD1A6093BF0062084A /* Silencio.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = DB228DAC1A6093BF0062084A /* Silencio.xcscheme */; };
+		DB228DB01A6093BF0062084A /* Silencio.m in Sources */ = {isa = PBXBuildFile; fileRef = DB228DAF1A6093BF0062084A /* Silencio.m */; };
+		DB228DB81A609EC10062084A /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = DB228DB71A609EC10062084A /* JRSwizzle.m */; };
+		DB228DC11A60A9350062084A /* IDELanguageSupportUI.ideplugin in Resources */ = {isa = PBXBuildFile; fileRef = DB228DC01A60A9350062084A /* IDELanguageSupportUI.ideplugin */; };
+		DB228DC31A60A9400062084A /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB228DC21A60A9400062084A /* IDEKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB228DA21A6093BF0062084A /* Silencio.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Silencio.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB228DA51A6093BF0062084A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		DB228DA71A6093BF0062084A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		DB228DAB1A6093BF0062084A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB228DAC1A6093BF0062084A /* Silencio.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Silencio.xcscheme; path = Silencio.xcodeproj/xcshareddata/xcschemes/Silencio.xcscheme; sourceTree = SOURCE_ROOT; };
+		DB228DAE1A6093BF0062084A /* Silencio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Silencio.h; sourceTree = "<group>"; };
+		DB228DAF1A6093BF0062084A /* Silencio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Silencio.m; sourceTree = "<group>"; };
+		DB228DB61A609EC10062084A /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		DB228DB71A609EC10062084A /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		DB228DC01A60A9350062084A /* IDELanguageSupportUI.ideplugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = IDELanguageSupportUI.ideplugin; path = ../PlugIns/IDELanguageSupportUI.ideplugin; sourceTree = DEVELOPER_DIR; };
+		DB228DC21A60A9400062084A /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../Frameworks/IDEKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB228DA01A6093BF0062084A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB228DA61A6093BF0062084A /* AppKit.framework in Frameworks */,
+				DB228DC31A60A9400062084A /* IDEKit.framework in Frameworks */,
+				DB228DA81A6093BF0062084A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB228D991A6093BF0062084A = {
+			isa = PBXGroup;
+			children = (
+				DB228DA91A6093BF0062084A /* Silencio */,
+				DB228DA41A6093BF0062084A /* Frameworks */,
+				DB228DA31A6093BF0062084A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB228DA31A6093BF0062084A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB228DA21A6093BF0062084A /* Silencio.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB228DA41A6093BF0062084A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB228DBF1A60A91E0062084A /* Private Frameworks */,
+				DB228DA51A6093BF0062084A /* AppKit.framework */,
+				DB228DA71A6093BF0062084A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB228DA91A6093BF0062084A /* Silencio */ = {
+			isa = PBXGroup;
+			children = (
+				DB228DAE1A6093BF0062084A /* Silencio.h */,
+				DB228DAF1A6093BF0062084A /* Silencio.m */,
+				DB228DB61A609EC10062084A /* JRSwizzle.h */,
+				DB228DB71A609EC10062084A /* JRSwizzle.m */,
+				DB228DAA1A6093BF0062084A /* Supporting Files */,
+			);
+			path = Silencio;
+			sourceTree = "<group>";
+		};
+		DB228DAA1A6093BF0062084A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB228DAB1A6093BF0062084A /* Info.plist */,
+				DB228DAC1A6093BF0062084A /* Silencio.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB228DBF1A60A91E0062084A /* Private Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB228DC21A60A9400062084A /* IDEKit.framework */,
+				DB228DC01A60A9350062084A /* IDELanguageSupportUI.ideplugin */,
+			);
+			name = "Private Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB228DA11A6093BF0062084A /* Silencio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB228DB31A6093BF0062084A /* Build configuration list for PBXNativeTarget "Silencio" */;
+			buildPhases = (
+				DB228D9E1A6093BF0062084A /* Sources */,
+				DB228D9F1A6093BF0062084A /* Resources */,
+				DB228DA01A6093BF0062084A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Silencio;
+			productName = Silencio;
+			productReference = DB228DA21A6093BF0062084A /* Silencio.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB228D9A1A6093BF0062084A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Zachary Waldowski";
+				TargetAttributes = {
+					DB228DA11A6093BF0062084A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = DB228D9D1A6093BF0062084A /* Build configuration list for PBXProject "Silencio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB228D991A6093BF0062084A;
+			productRefGroup = DB228DA31A6093BF0062084A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB228DA11A6093BF0062084A /* Silencio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB228D9F1A6093BF0062084A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB228DC11A60A9350062084A /* IDELanguageSupportUI.ideplugin in Resources */,
+				DB228DAD1A6093BF0062084A /* Silencio.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB228D9E1A6093BF0062084A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB228DB81A609EC10062084A /* JRSwizzle.m in Sources */,
+				DB228DB01A6093BF0062084A /* Silencio.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB228DB11A6093BF0062084A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		DB228DB21A6093BF0062084A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		DB228DB41A6093BF0062084A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_DIR)/../Frameworks",
+					"$(DEVELOPER_DIR)/../OtherFrameworks",
+					"$(DEVELOPER_DIR)/../SharedFrameworks",
+					"$(DEVELOPER_DIR)/../PlugIns",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Silencio/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../SharedFrameworks @executable_path/../Frameworks @executable_path/../OtherFrameworks @executable_path/../PlugIns";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		DB228DB51A6093BF0062084A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_DIR)/../Frameworks",
+					"$(DEVELOPER_DIR)/../OtherFrameworks",
+					"$(DEVELOPER_DIR)/../SharedFrameworks",
+					"$(DEVELOPER_DIR)/../PlugIns",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Silencio/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../SharedFrameworks @executable_path/../Frameworks @executable_path/../OtherFrameworks @executable_path/../PlugIns";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB228D9D1A6093BF0062084A /* Build configuration list for PBXProject "Silencio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB228DB11A6093BF0062084A /* Debug */,
+				DB228DB21A6093BF0062084A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB228DB31A6093BF0062084A /* Build configuration list for PBXNativeTarget "Silencio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB228DB41A6093BF0062084A /* Debug */,
+				DB228DB51A6093BF0062084A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB228D9A1A6093BF0062084A /* Project object */;
+}
