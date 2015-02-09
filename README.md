@@ -5,6 +5,8 @@ Shut up, Xcode.
 `SourceKitService` crashes slow down Xcode. As it turns out, this is because of 
 the bezel it displays at that time. Inhibit that, speed up Xcode.
 
+*IMPORTANT*: This is only guaranteed to be helpful in Xcode 6.0, 6.1, and 6.2. In 6.3 rumor has it that this behavior is improved.
+
 ## Terminology
 
 * `SourceKit`/`SourceKitService`: The framework and XPC service (respectively) responsible for Swift.
